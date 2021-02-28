@@ -1,5 +1,6 @@
 nav {
     text-align: right;
+   
 }
 
 #leftlogo {
@@ -18,6 +19,13 @@ header {
     padding: 10px 20px;
     display: flex;
     justify-content: space-between;
+}
+
+container {
+    position: absolute;
+    background-color: grey;
+
+    
 }
 
 a {
@@ -44,7 +52,7 @@ a:before {
 
 
 
-#button:hover {
+.button:hover {
     transform: scale(1.08);
     background-color: white;
     color: #3A4042;
@@ -52,7 +60,9 @@ a:before {
     
 }
 
-#button {
+
+.button {
+    text-align: center;
     display: inline-block;
     background-color: #00DEF8;
     color:#FFF;
@@ -60,5 +70,27 @@ a:before {
     box-shadow: 5px 5px  white;
     margin-right: 0;
     transition: transform 100ms linear;
+    width: 170px;
+    height: 30px;
 
 }
+
+.quartername button {
+    margin-left: 20px;
+    
+}
+
+
+.quartername {
+    position: absolute;
+    background-color: #3A4042;
+    width: 627px;
+    height: 184px;
+    box-shadow: 5px 5px black;
+    left: 81px;
+    top: 187px;
+    
+}
+
+
+
