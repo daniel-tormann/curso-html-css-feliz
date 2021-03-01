@@ -21,13 +21,6 @@ header {
     justify-content: space-between;
 }
 
-container {
-    position: absolute;
-    background-color: grey;
-
-    
-}
-
 a {
     color: #FFF;
     align-items: center;
@@ -74,23 +67,5 @@ a:before {
     height: 30px;
 
 }
-
-.quartername button {
-    margin-left: 20px;
-    
-}
-
-
-.quartername {
-    position: absolute;
-    background-color: #3A4042;
-    width: 627px;
-    height: 184px;
-    box-shadow: 5px 5px black;
-    left: 81px;
-    top: 187px;
-    
-}
-
 
 
